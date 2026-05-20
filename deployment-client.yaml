@@ -15,7 +15,7 @@ spec:
         app: client
     spec:
       containers:
-        - image: techcs.kr-central-2.kcr.dev/cr-auden-test/kakaocloud-library-client:latest
+        - image: techcs.kr-central-2.kcr.dev/cr-auden-test/kakaocloud-library-client:de3a020a29fbc4c85cb94c480a8ca6ecfe2740df
           name: kakaocloud-library-client
           ports:
             - containerPort: 80
